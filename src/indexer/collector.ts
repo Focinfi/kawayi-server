@@ -4,8 +4,8 @@ import { indexer } from './indexer';
 export const cellCollector = new CellCollector(indexer, {
     lock: {
       code_hash:
-        "0x9bd7e06f3ecf4be0f2fcd2188b23f1b9fcc88e5d4b65a8637b17723bbda3cce8",
+        "0x58c5f491aba6d61678b7cf7edf4910b1f5e00ec0cde2f42e0abb4fd9aff25a63",
       hash_type: "type",
-      args: "0xda648442dbb7347e467d1d09da13e5cd3a0ef0e1",
+      args: "0xa11e72cb616144c72cf033c9f2ea46c4537f6942",
     },
   });

@@ -8,11 +8,6 @@ export class AppController {
 
   @Get()
   async getHello(): Promise<string> {
-    const cells = await cellCollector.count();
-    console.log("cells: ", cells);
-    // for await (const cell of cellCollector.collect()) {
-    //   console.log(cell);
-    // }
-    return this.appService.getHello();
+    return `cells: ${cellCollector.count()}`;
   }
 }
